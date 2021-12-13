@@ -1,0 +1,170 @@
+[
+    {
+        "id": "1",
+        "nombre": "Blazer Cuadros",
+        "talle": "S",
+        "precio": 20000,
+        "img": "./Imagenes/blazer_1.png"
+    },
+    {
+        "id": "2",
+        "nombre": "Blazer Estructura",
+        "talle": "M",
+        "precio": 20000,
+        "img": "./Imagenes/blazer_2.png"
+    },
+    {
+        "id": "3",
+        "nombre": "Blazer Tostado",
+        "talle": "L",
+        "precio": 20000,
+        "img": "./Imagenes/blazer_3.png"
+    },
+    {
+        "id": "4",
+        "nombre": "Blazer Slim",
+        "talle": "XL",
+        "precio": 20000,
+        "img": "./Imagenes/blazer_4.png"
+    },
+    {
+        "id": "5",
+        "nombre": "Bermuda Jogger",
+        "talle": "S",
+        "precio": 7000,
+        "img": "./Imagenes/bermuda_1.png"
+    },
+    {
+        "id": "6",
+        "nombre": "Bermuda Black",
+        "talle": "M",
+        "precio": 7000,
+        "img": "./Imagenes/bermuda_2.png"
+    },
+    {
+        "id": "7",
+        "nombre": "Bermuda Tie dye",
+        "talle": "L",
+        "precio": 7000,
+        "img": "./Imagenes/bermuda_3.png"
+    },
+    {
+        "id": "8",
+        "nombre": "Bermuda Fit",
+        "talle": "XL",
+        "precio": 7000,
+        "img": "./Imagenes/bermuda_4.png"
+    },
+    {
+        "id": "9",
+        "nombre": "Buzo New Way",
+        "talle": "S",
+        "precio": 12000,
+        "img": "./Imagenes/buzo_1.png"
+    },
+    {
+        "id": "10",
+        "nombre": "Blazer Once You",
+        "talle": "M",
+        "precio": 12000,
+        "img": "./Imagenes/buzo_2.png"
+    },
+    {
+        "id": "11",
+        "nombre": "Buzo Face",
+        "talle": "L",
+        "precio": 12000,
+        "img": "./Imagenes/buzo_3.png"
+    },
+    {
+        "id": "12",
+        "nombre": "Buzo Hearth",
+        "talle": "XL",
+        "precio": 12000,
+        "img": "./Imagenes/buzo_4.png"
+    },
+    {
+        "id": "13",
+        "nombre": "Camisa Rayas",
+        "talle": "S",
+        "precio": 9000,
+        "img": "./Imagenes/camisa_1.png"
+    },
+    {
+        "id": "14",
+        "nombre": "Camisa Lino",
+        "talle": "M",
+        "precio": 9000,
+        "img": "./Imagenes/camisa_2.png"
+    },
+    {
+        "id": "15",
+        "nombre": "Camisa Summer",
+        "talle": "L",
+        "precio": 9000,
+        "img": "./Imagenes/camisa_3.png"
+    },
+    {
+        "id": "16",
+        "nombre": "Camisa Ugh",
+        "talle": "XL",
+        "precio": 9000,
+        "img": "./Imagenes/camisa_4.png"
+    },
+    {
+        "id": "17",
+        "nombre": "Pantalon cuadros",
+        "talle": "S",
+        "precio": 8000,
+        "img": "./Imagenes/pantalon_1.png"
+    },
+    {
+        "id": "18",
+        "nombre": "Pantalon cuadros",
+        "talle": "M",
+        "precio": 8000,
+        "img": "./Imagenes/pantalon_2.png"
+    },
+    {
+        "id": "19",
+        "nombre": "Pantalon cuadros",
+        "talle": "L",
+        "precio": 8000,
+        "img": "./Imagenes/pantalon_3.png"
+    },
+    {
+        "id": "20",
+        "nombre": "Pantalon cuadros",
+        "talle": "XL",
+        "precio": 8000,
+        "img": "./Imagenes/pantalon_4.png"
+    },
+    {
+        "id": "21",
+        "nombre": "Chino cuadros",
+        "talle": "S",
+        "precio": 6000,
+        "img": "./Imagenes/chino_1.png"
+    },
+    {
+        "id": "22",
+        "nombre": "Chino cuadros",
+        "talle": "M",
+        "precio": 6000,
+        "img": "./Imagenes/chino_2.png"
+    },
+    {
+        "id": "23",
+        "nombre": "Chino cuadros",
+        "talle": "L",
+        "precio": 6000,
+        "img": "./Imagenes/chino_3.png"
+    },
+    {
+        "id": "24",
+        "nombre": "Chino cuadros",
+        "talle": "XL",
+        "precio": 6000,
+        "img": "./Imagenes/chino_4.png"
+    }
+]

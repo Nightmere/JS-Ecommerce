@@ -1,0 +1,223 @@
+/* GENERALES */
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    color: gray !important;
+    transition: 0.5s !important; }
+
+ul {
+  list-style: none; }
+
+/* HEADER */
+.banner {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+.navbar {
+  padding-top: 0rem; }
+
+.nav-bar {
+  margin-top: 2rem; }
+  .nav-bar .navbar-brand {
+    margin-right: 0rem; }
+    .nav-bar .navbar-brand h1 {
+      font-size: 3rem;
+      margin-left: 2rem;
+      margin-bottom: 0rem; }
+  .nav-bar #modalAbrir {
+    margin-left: 1rem; }
+  .nav-bar .navbar-nav li {
+    margin-left: 1rem; }
+
+.container-modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s ease-in-out; }
+  .container-modal #modal {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: scroll; }
+    .container-modal #modal .modal-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center; }
+      .container-modal #modal .modal-head #modalCerrar {
+        display: flex;
+        margin-left: auto; }
+      .container-modal #modal .modal-head h2 {
+        display: flex;
+        width: 100%;
+        margin: 0rem; }
+    .container-modal #modal .modal-foot {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .container-modal #modal .modal-foot p {
+        width: 100%;
+        margin-top: 0.5rem; }
+      .container-modal #modal .modal-foot #modalVaciar {
+        width: 1000%; }
+      .container-modal #modal .modal-foot #finalizarCompra {
+        margin-top: 0.5rem;
+        width: 100%; }
+
+.modal-active {
+  visibility: visible;
+  opacity: 1; }
+
+#tienda-productos h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem; }
+
+/* FOOTER */
+.footer {
+  padding: 5rem 4rem 2rem 4rem;
+  margin-top: 1rem;
+  background-color: black; }
+  .footer .empresa h3 {
+    color: white;
+    font-size: 2rem; }
+    .footer .empresa h3:hover {
+      color: gray;
+      transition: 0.5s; }
+  .footer .empresa p {
+    margin: 0.5rem 0rem;
+    color: gray;
+    font-size: 12px;
+    text-align: justify; }
+  .footer .empresa .redes {
+    margin-top: 1rem;
+    margin-bottom: 2rem; }
+    .footer .empresa .redes a {
+      color: gray;
+      padding-right: 1rem; }
+      .footer .empresa .redes a:hover {
+        color: #ff6026 !important;
+        transition: 0.5s !important; }
+  .footer .empresa span p {
+    font-size: 8px; }
+  .footer .informacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white; }
+    .footer .informacion h4 {
+      font-size: 1rem;
+      letter-spacing: 2px; }
+    .footer .informacion hr {
+      border-radius: 10px;
+      height: 0.1rem;
+      margin-top: 0rem;
+      margin-bottom: 1.5rem;
+      width: 50%;
+      color: #ff6026;
+      opacity: 1; }
+    .footer .informacion ul {
+      padding: 0rem; }
+      .footer .informacion ul li {
+        margin-bottom: 1.5rem; }
+        .footer .informacion ul li a {
+          font-size: 12px;
+          color: gray; }
+          .footer .informacion ul li a:hover {
+            color: #ff6026 !important;
+            transition: 0.5s !important; }
+
+.informacion-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .informacion-header h2 {
+    margin: 1rem 0rem 3rem 0rem; }
+  .informacion-header div {
+    margin-bottom: 1rem; }
+  .informacion-header span {
+    margin-bottom: 2rem; }
+
+.formulario h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 1rem 0rem 2rem 0rem; }
+
+.formulario .formulario-container {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0rem 1rem 0rem 1rem; }
+  .formulario .formulario-container div p {
+    margin-bottom: 1.5rem; }
+  .formulario .formulario-container div ul {
+    padding: 0rem; }
+    .formulario .formulario-container div ul li {
+      margin-bottom: 0.5rem; }
+      .formulario .formulario-container div ul li i {
+        margin-right: 10px; }
+  .formulario .formulario-container div .text-area {
+    resize: none; }
+  .formulario .formulario-container div .fomulario-boton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; }
+
+@media only screen and (max-width: 992px) {
+  .nav-bar .navbar-brand
+h1 {
+    margin-left: 0.5rem;
+    margin-bottom: 0rem; }
+  .nav-bar .navbar-nav li {
+    border: 1px solid black;
+    margin: 0.1rem; }
+  body #modalAbrir {
+    order: 0 !important;
+    margin-left: 0rem; }
+  .footer .informacion {
+    justify-content: left;
+    margin-top: 1rem; }
+  .footer .empresa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .footer .empresa .redes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+  body .informacion-header b {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+@media only screen and (max-width: 768px) {
+  .nav-bar .navbar-brand h1 {
+    font-size: 2.5rem; } }

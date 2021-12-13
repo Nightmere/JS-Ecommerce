@@ -1,0 +1,38 @@
+// FORMULARIO
+
+.formulario {
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        margin: 1rem 0rem 2rem 0rem;
+    }
+    .formulario-container {
+        max-width: 760px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0rem 1rem 0rem 1rem;
+        div {
+            p {
+                margin-bottom: 1.5rem;
+            }
+            ul {
+                padding: 0rem;
+                li {
+                    margin-bottom: 0.5rem;
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .text-area {
+                resize: none;
+            }
+            .fomulario-boton {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

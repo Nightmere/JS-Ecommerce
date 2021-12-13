@@ -1,0 +1,51 @@
+// MEDIA QUERY
+
+@media only screen and (max-width: 992px) {
+    
+    .nav-bar .navbar-brand
+    h1 {
+        margin-left: 0.5rem;
+        margin-bottom: 0rem;
+    }
+    .nav-bar .navbar-nav {
+        li {
+            border: 1px solid black;
+            margin: 0.1rem;
+        }
+    }
+    body #modalAbrir {
+        order: 0 !important;
+        margin-left: 0rem;
+    }
+    .footer .informacion {
+        justify-content: left;
+        margin-top: 1rem;
+    }
+    .footer .empresa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .redes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    }
+    body .informacion-header {
+        b {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nav-bar .navbar-brand {
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+}

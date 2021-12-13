@@ -1,0 +1,38 @@
+/* HEADER */
+
+.banner {
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar {
+    padding-top: 0rem;
+}
+
+.nav-bar {
+    margin-top: 2rem;
+    .navbar-brand {
+        margin-right: 0rem;
+        h1 {
+            font-size: 3rem;
+            margin-left: 2rem;
+            margin-bottom: 0rem;
+        }
+    }
+    #modalAbrir {
+        margin-left: 1rem;
+    }
+    .navbar-nav {
+        li {
+            margin-left: 1rem;
+        }
+    }
+}
+

@@ -1,0 +1,73 @@
+/* FOOTER */
+
+.footer {
+    padding: 5rem 4rem 2rem 4rem;
+    margin-top: 1rem;
+    background-color: black;
+    .empresa {
+        h3 {
+            color: white;
+            font-size: 2rem;
+            &:hover {
+                color: gray;
+                transition: 0.5s;
+            }
+        }
+        p {
+            margin: 0.5rem 0rem;
+            color: gray;
+            font-size: 12px;
+            text-align: justify;
+        }
+        .redes {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            a {
+                color: gray;
+                padding-right: 1rem;
+                &:hover {
+                    color: rgb(255, 96, 38) !important;
+                    transition: 0.5s !important;
+                }
+            }
+        }
+        span {
+            p {
+                font-size: 8px;
+            }
+        }
+    }
+    .informacion {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+        h4 {
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+        hr {
+            border-radius: 10px;
+            height: 0.1rem;
+            margin-top: 0rem;
+            margin-bottom: 1.5rem;
+            width: 50%;
+            color: rgb(255, 96, 38);
+            opacity: 1;
+        }
+        ul {
+            padding: 0rem;
+            li {
+                margin-bottom: 1.5rem;
+                a {
+                    font-size: 12px;
+                    color: gray;
+                    &:hover {
+                        color:rgb(255, 96, 38) !important;
+                        transition: 0.5s !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+// INFORMACION
+
+.informacion-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        margin: 1rem 0rem 3rem 0rem;
+    }
+    div {
+        margin-bottom: 1rem;
+    }
+    span {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,23 @@
+/* GENERALES */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        color: gray !important;
+        transition: 0.5s !important;
+    }
+}
+
+ul {
+    list-style: none;
+}
