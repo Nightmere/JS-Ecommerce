@@ -45,7 +45,7 @@ function mostrarTienda(array) {
                 position: 'bottom-end',
                 icon: 'success',
                 title: 'Tu producto ha sido agregar al carrito!',
-                timer: 1100,
+                timer: 1200,
                 showConfirmButton: false,
             })
         })
@@ -67,6 +67,14 @@ const eliminarDelCarrito = (prodId) => {
     const item = carrito.find( (prod) => prod.id === prodId)
     const indice = carrito.indexOf(item)
     carrito.splice(indice, 1)
+    Swal.fire({
+        toast: true,
+        position: 'bottom-end',
+        icon: 'error',
+        title: 'Tu producto ha sido eliminado del carrito!',
+        timer: 1200,
+        showConfirmButton: false,
+    })
     
     actualizar()
 }
@@ -104,7 +112,17 @@ const vaciarCarrito = () => {
 }
 
 vaciar.addEventListener ("click", () => {
-    vaciarCarrito()
+    if (carrito.length == 0) {
+        Swal.fire({
+            icon: 'error',
+            title: 'El carrito esta vacío',
+            timer: 1200,
+            showConfirmButton: false,
+        })
+    }
+    else {
+        vaciarCarrito()
+    }
 })
 
 // FINALIZAR COMPRA
