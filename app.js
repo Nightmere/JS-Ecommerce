@@ -2,8 +2,10 @@
 const tienda = document.getElementById('tienda-productos')
 const cart = document.getElementById("carrito")
 const vaciar = document.getElementById("modalVaciar")
+const botonCompra = document.getElementById("finalizarCompra")
 
 let productos = []
+
 let carrito = []
 
 // FETCH
@@ -96,7 +98,33 @@ const actualizar = () => {
 
 // VACIAR CARRITO
 
-vaciar.addEventListener ("click", () => {
+const vaciarCarrito = () => {
     carrito = []
     actualizar()
+}
+
+vaciar.addEventListener ("click", () => {
+    vaciarCarrito()
+})
+
+// FINALIZAR COMPRA
+
+botonCompra.addEventListener("click", () => {
+    if (carrito.length == 0) {
+        Swal.fire({
+            icon: 'error',
+            title: 'El carrito esta vacío',
+            timer: 1200,
+            showConfirmButton: false,
+        })
+    }
+    else {
+        Swal.fire({
+            icon: 'success',
+            title: 'Tu compra ha sido realizada con exito!',
+            timer: 1200,
+            showConfirmButton: false,
+        })
+        vaciarCarrito()
+    }
 })

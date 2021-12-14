@@ -3,19 +3,19 @@
 .footer {
     padding: 5rem 4rem 2rem 4rem;
     margin-top: 1rem;
-    background-color: black;
+    background-color: $negro;
     .empresa {
         h3 {
-            color: white;
+            color: $blanco;
             font-size: 2rem;
             &:hover {
-                color: gray;
+                color: $gris;
                 transition: 0.5s;
             }
         }
         p {
             margin: 0.5rem 0rem;
-            color: gray;
+            color: $gris;
             font-size: 12px;
             text-align: justify;
         }
@@ -23,10 +23,10 @@
             margin-top: 1rem;
             margin-bottom: 2rem;
             a {
-                color: gray;
+                color: $gris;
                 padding-right: 1rem;
                 &:hover {
-                    color: rgb(255, 96, 38) !important;
+                    color: $naranja !important;
                     transition: 0.5s !important;
                 }
             }
@@ -41,7 +41,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        color: white;
+        color: $blanco;
         h4 {
             font-size: 1rem;
             letter-spacing: 2px;
@@ -52,7 +52,7 @@
             margin-top: 0rem;
             margin-bottom: 1.5rem;
             width: 50%;
-            color: rgb(255, 96, 38);
+            color: $naranja;
             opacity: 1;
         }
         ul {
@@ -61,9 +61,9 @@
                 margin-bottom: 1.5rem;
                 a {
                     font-size: 12px;
-                    color: gray;
+                    color: $gris;
                     &:hover {
-                        color:rgb(255, 96, 38) !important;
+                        color:$naranja !important;
                         transition: 0.5s !important;
                     }
                 }
